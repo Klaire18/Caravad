@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CARAVAD – Unveiling the Soul Behind the Art</title>
+  <style>
+    :root {
+      --primary: #b98c2e;
+      --accent: #a0751f;
+      --light-bg: #fffaf1;
+    }
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: var(--light-bg);
+      color: #111;
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--light-bg);
+      padding: 20px 40px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+      color: var(--primary);
+      letter-spacing: 1px;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    .section {
+      padding: 60px 40px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .section h2 {
+      margin-bottom: 20px;
+      font-size: 32px;
+      color: var(--primary);
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+    .section p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .highlight {
+      background-color: #f5e7cc;
+      padding: 20px;
+      border-left: 4px solid var(--primary);
+      margin: 30px 0;
+    }
+    .blog-post {
+      margin-bottom: 40px;
+    }
+    .blog-post h3 {
+      margin: 0 0 10px;
+      font-size: 24px;
+      color: var(--accent);
+    }
+    .blog-post p {
+      margin: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+      color: #666;
+      border-top: 1px solid #eee;
+      margin-top: 60px;
+    }
+    a {
+      color: var(--primary);
+    }
+    a:hover {
+      color: var(--accent);
+    }
+    .socials a {
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">CARAVAD</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#whats-new">What's New</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="section">
+    <h2>Unveiling the Soul Behind the Art</h2>
+    <p>CARAVAD is where the unseen side of music, art, and storytelling comes to light. We go beyond the surface—into the process, the people, and the pulse behind every masterpiece.</p>
+    <div class="highlight">
+      <strong>Watch Now:</strong> <em>Confirm</em> — our lyric explainer show that breaks down the lines you feel but don't fully understand.
+    </div>
+    <div class="highlight">
+      <strong>Spotlight:</strong> <em>First Day on the Job</em> — introducing fresh creatives and untold journeys from day one.
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About CARAVAD</h2>
+    <p><strong>Short Bio:</strong> CARAVAD is a creative platform dedicated to exploring the real stories behind the art. Through in-depth shows, interviews, and articles, we highlight the process and people behind the music and creativity that shape our world. Minimalist, soulful, and authentic—that's our lens.</p>
+    <p>From in-depth lyric breakdowns to raw behind-the-scenes moments, CARAVAD exists to amplify the voices often left in the background.</p>
+  </section>
+
+  <section id="whats-new" class="section">
+    <h2>What's New</h2>
+    <ul>
+      <li><strong>New Episode:</strong> <em>Confirm: Breaking Down "Echoes" by Zeal</em></li>
+      <li><strong>New Feature:</strong> <em>First Day on the Job with LANA</em></li>
+      <li><strong>Coming Soon:</strong> CARAVAD Mini Docs</li>
+    </ul>
+  </section>
+
+  <section id="blog" class="section">
+    <h2>Blog</h2>
+    <div class="blog-post">
+      <h3>The Subtle Genius of Background Vocals</h3>
+      <p>They’re quiet, but they shape the soul of a song. Here's why they matter more than you think.</p>
+    </div>
+
+    <div class="blog-post">
+      <h3>TMZ vs Truth: Why We’re Different</h3>
+      <p>We don't just spill tea—we serve facts, insight, and real stories from the creative trenches.</p>
+    </div>
+
+    <div class="blog-post">
+      <h3>5 Lyrics You Misunderstood (And What They Really Mean)</h3>
+      <p>A breakdown that'll blow your mind and maybe make you cry a little.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact & Socials</h2>
+    <p>Have a story, pitch, or partnership idea? We’d love to hear from you.</p>
+    <p>Email: <a href="mailto:hello@caravad.com">hello@caravad.com</a></p>
+    <div class="socials">
+      <p>Follow us:</p>
+      <a href="https://instagram.com/caravadmedia" target="_blank">Instagram</a>
+      <a href="https://youtube.com/@caravadmedia" target="_blank">YouTube</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 CARAVAD. All rights reserved.
+  </footer>
+</body>
+</html>
